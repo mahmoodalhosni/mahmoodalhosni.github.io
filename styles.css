@@ -1,5 +1,23 @@
 
-body { font-family: Arial, sans-serif; line-height: 1.4; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; 
+body { font-family: Arial, sans-serif; ; color: #333; 
+
+}
+
+.backstage {
+    background-color: aquamarine;
+    padding: 20PX;
+    background-image: radial-gradient(#A9C3EB 8px, transparent 4.5px);
+	background-size: 50px 50px;
+	background-color: #E4E4ED;
+}
+
+.main-container {
+    max-width: 800px; margin: 0 auto;
+    /* from https://www.cssportal.com/css-pattern-generator/ */
+    padding: 30px; border-radius: 15px; 
+    background-color: white;
+    line-height: 1.4
+
 }
 
 h1, h2 { color: #2c3e50; 
