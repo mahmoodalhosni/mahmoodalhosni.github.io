@@ -6,7 +6,7 @@ h1, h2 { color: #2c3e50;
 }
 
 .section {
-    background-color: #f4f4f4;
+    background-color:whitesmoke;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 5px;
@@ -44,7 +44,7 @@ img {
 }
 
 .project-description { 
-    background-color: #f4f4f4; 
+    background-color: PaleTurquoise; 
     padding: 20px; 
     border-radius: 5px; 
 }
@@ -61,7 +61,7 @@ img {
     padding: 10px 20px;
     border-radius: 5px;
     gap: 10px;
-    box-shadow: 0px 0px 10px #cbcfd3;
+    box-shadow: 15px 5px rgb(9, 205, 205);
     cursor: pointer;
 }
 
@@ -69,6 +69,18 @@ img {
     color: rgb(45, 45, 109);
     line-height: 1.2;
     text-decoration: none;
+
+}
+
+.links {
+    text-decoration-line: underline;
+    text-decoration-thickness: 0.3rem;
+    text-decoration-color: gray;
+    color:rgb(45, 45, 109)
+}
+
+.links:hover{
+    text-decoration-color: DeepSkyBlue;
 
 }
 
