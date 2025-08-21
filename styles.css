@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     color: #333;
-    background-color: rgb(184, 245, 225);
+    /* background-color: rgb(184, 245, 225); */
     /* In case the background fails to display */
     /* The funcky background created from https://www.cssportal.com/css-pattern-generator/ */
     background-image: radial-gradient(#A9C3EB 8px, transparent 4.5px);
@@ -76,6 +76,7 @@ h2 {
     padding: 20px;
     border-radius: 5px;
 }
+/* Add a hover here for the project description to ilght up from the bottom up; maybe through a gradient */
 
 .project-card {
     background-color: rgb(226, 234, 236);
@@ -127,6 +128,12 @@ div.gallery {
 
 div.gallery:hover {
     border: 1px solid #777;
+    box-shadow: 5px 6px #a8a8a8;
+}
+
+#example3 {
+  border: 1px solid;
+  padding: 10px;
 }
 
 div.gallery img {
@@ -166,4 +173,10 @@ div.desc {
     content: "";
     display: table;
     clear: both;
+}
+
+/* External fitting for the footer */
+.footer-content {
+  width: 100%;
+  height: 60px; 
 }
