@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Training Needs Analysis - Mahmood Al Hosni Portfolio</title>
+    <link rel="icon" href="https://mahmoodalhosni.github.io/media/favicon.png">
+
+    <!-- <link rel="stylesheet" type="text/css" href="https://mahmoodalhosni.github.io/styles.css"> -->
+    <!-- <link rel="stylesheet" href="/styles.css"> -->
+
+</head>
+
+<body>
+    <div class="backstage">
+        <div class="main-container">
+            <nav><small><a class="project-card" href="../index.html">🔙 Homepage</a></small></nav><br />
+            <h1>A practical user management solution in Microsoft Access</h1>
+            <section id="project-overview" class="project-description">
+                <h2>Project Overview</h2>
+                <p>This project demonstrates a practical SaaS solution built on Microsoft Access that prioritizes ease
+                    of use, effective and relevant dashboards; serving a direct and time-sensitive need for the client
+                    in managing their scattered databases and operations.</p>
+            </section>
+            <section id="problem-statement">
+                <h3>Problem Statement</h3>
+                <p>2 - 3 sentences explaining the problem you solved</p>
+            </section>
+            <section id="methodology">
+                <h3>Methodology</h3>
+                <ul>
+                    <li>2 - 3 bullet points about how you approached this issue</li>
+                </ul>
+            </section>
+            <section id="key-findings">
+                <h3>Key implemented services</h3>
+                <ul>
+                    <li>2-3 bullet points about the features you built</li>
+                    
+                </ul>
+            </section>
+            </section>
+            <section id="visuals">
+                <h3>Screenshots</h3>
+                <!-- Image section -->
+                <div class="responsive">
+                    <div class="gallery"><a href="/media/screenshots/1/e-r_Verification.png" target="_blank" rel="noopener"> <img src="/media/screenshots/1/e-r_Verification.png" alt="Custom user verification"> </a>
+                        <div class="desc">A module to manage custom user verification</div>
+                    </div>
+                </div>
+                <!-- Clone for more images as needed -->
+                
+                <div class="clearfix">&nbsp;</div>
+            </section>
+            <section id="tools-used">
+                <h3>Tools and Technologies Used</h3>
+                <ul>
+                    <li>Development: </li>
+                    <li>Gathering resources: </li>
+                    <li>Task management: </li>
+                </ul>
+            </section>
+            <section id="challenges">
+                <h3>Challenges and Solutions</h3>
+                <ul>
+                    <li><strong>Challenge: </strong>
+                        <ul>
+                            <li>Solution: </li>
+                        </ul>
+                    </li>
+                 <!-- Repeat as needed -->
+                </ul>
+            </section>
+            <section id="impact">
+                <h3>Project Impact</h3>
+                <ul>
+                    <li></li>
+                </ul>
+            </section>
+            <section id="lessons-learned">
+                <h3>Lessons Learned</h3>
+                <ul>
+                    <li></li>
+                </ul>
+            </section>
+            <section class="section">
+                <h2>Skills Demonstrated</h2>
+                <div class="skills-list">VBA Scripting, Data Wrangling, and Building Dynamic
+                    Dashboards<!-- Add more skills as relevant to the project --></div>
+            </section>
+            <footer><br />
+                <hr style="border: 1px solid #ddd5d5;" /><small>&copy; <span class="site_date">2024</span> Mahmood Al Hosni. All rights
+                    reserved.</small>
+            </footer>
+        </div>
+    </div>
+
+    <!-- Coming soon template -->
+     <div class="backstage">
+        <div class="main-container">
+    <nav>
+        <small><a class="project-card" href="../index.html">🔙 Homepage</a></small>
+    </nav>
+   
+    <p>Content is coming soon! 🛎️</p>
+    </div>
+    </div>
+    <!-- Coming soon template -->
+
+</body>
+
+</html>

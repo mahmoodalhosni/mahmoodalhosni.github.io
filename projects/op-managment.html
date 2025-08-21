@@ -1,25 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OPMS - Mahmood Al Hosni Portfolio</title>
     <link rel="icon" href="https://mahmoodalhosni.github.io/media/favicon.png">
 
-    <link rel="stylesheet" type="text/css" href="https://mahmoodalhosni.github.io/styles.css">
-    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="https://mahmoodalhosni.github.io/styles.css"> -->
+    <link rel="stylesheet" href="/styles.css">
 </head>
+
 <body>
     <div class="backstage">
         <div class="main-container">
-    <nav>
-        <small><a class="project-card" href="../index.html">🔙 Homepage</a></small>
-    </nav>
-   
-    <p>Content is coming soon! 🛎️</p>
-    
+            <nav><small><a class="project-card" href="../index.html">🔙 Homepage</a></small></nav><br />
+            <h1>Operational Plan Management System (OPMS)</h1>
+            <section id="project-overview" class="project-description">
+                <h2>Project Overview</h2>
+                <p>This project was born out of a need to streamline the process of tracking operational plan
+                    achievement and keeping up with timelines and related evidences. It includes dynamic dashboards,
+                    automated email notifications, and consolidation of all related departments into comprehensive and
+                    insightful dashboard reports.</p>
+            </section>
+            <section id="problem-statement">
+                <h3>Problem Statement</h3>
+                <p>Tracking the progress of operational plans carries a lot of bad reputation: it's invasive, too
+                    demanding, and it's often already too late when the QA officer sends you reminders about the
+                    progress of the actions you are supposed to work on. Add to this all of the distributed paperwork,
+                    spreadsheets, and emails throughout different departments and with different people.&nbsp;</p>
+            </section>
+            <section id="methodology">
+                <h3>Methodology</h3>
+                <ul>
+                    <li>Utilize the power of Google Spreadsheets and the extensibility of custom scripting using Apps
+                        Script.</li>
+                    <li>Created spreadsheets for each department and a spreadsheet that is able to process data from
+                        different departments. This allowed admin users to centralize the distribution of actions easily
+                        and make amendments when needed.</li>
+                    <li>Building on this, a comprehensive and dynamic dashboard was included to closely allow admin
+                        users to monitor the progress of each department, each action category, and even monitor user
+                        access to the individual sheets.</li>
+                    <li>There is a yearly feedback form that is sent to all OPMS users to suggest improvements or
+                        communicate opinions about the system.</li>
+                </ul>
+            </section>
+            <section id="key-findings">
+                <h3>Key implemented services</h3>
+                <ul>
+                    <li>Individual Operational plan actions tracker for each department with relevant dashboards, an
+                        easy-to-use tool to upload evidence for each action, and links to user manuals.</li>
+                    <li>Automated reminder emails to be sent only to departments that have upcoming deadlines and urge
+                        them to work on their actions or communicate with the management if they need further support.
+                    </li>
+                    <li>Easy disbursement of actions to departments, as well as centralized provision of access
+                        permissions to users.</li>
+                </ul>
+            </section>
+            <section id="visuals">
+                <h3>Screenshots</h3>
+                <!-- Image section -->
+                <div class="responsive">
+                    <div class="gallery"><a href="/media/screenshots/2/dashboard 1.png" target="_blank"
+                            rel="noopener"> <img src="/media/screenshots/2/dashboard 1.png"
+                                alt="Admin dashboard" /> </a>
+                        <div class="desc">The top section of the admin view enables timely and dynamic view of OP actions' progress</div>
+                    </div>
+                </div>
+                                <div class="responsive">
+                    <div class="gallery"><a href="/media/screenshots/2/dashboard 2.png" target="_blank"
+                            rel="noopener"> <img src="/media/screenshots/2/dashboard 2.png"
+                                alt="Admin dashboard" /> </a>
+                        <div class="desc">The other section of  admin view shows actions distribution, current KPIs, and alerts on evidence approval requests.</div>
+                    </div>
+                </div>
+                                <div class="responsive">
+                    <div class="gallery"><a href="/media/screenshots/2/Department.png" target="_blank"
+                            rel="noopener"> <img src="/media/screenshots/2/Department.png"
+                                alt="department sheet" /> </a>
+                        <div class="desc">One of the spreadsheets that are provided for each department</div>
+                    </div>
+                </div>
+                <div class="responsive">
+                    <div class="gallery"><a href="/media/screenshots/2/dashboard-overview.mp4" target="_blank"
+                            rel="noopener"> <img src="/media/screenshots/2/dashboard-screenshot.jpg"
+                                alt="Dashboard demo" /> </a>
+                        <div class="desc">A short demo of the admin page view</div>
+                    </div>
+                </div>
+                <!-- Clone for more images as needed -->
+                <div class="clearfix">&nbsp;</div>
+            </section>
+            <section id="tools-used">
+                <h3>Tools and Technologies Used</h3>
+                <ul>
+                    <li>Development: Apps Script to create the workflow and process multi-spreadsheet data.&nbsp;</li>
+                    <li>Gathering resources: Intensive discussions with QA Head and staff about the workflow and
+                        figuring out the most efficient way given the available resources.&nbsp;</li>
+                    <li>Task management: A simple Google Spreadsheet to manage to-do lists.</li>
+                </ul>
+            </section>
+            <section id="challenges">
+                <h3>Challenges and Solutions</h3>
+                <ul>
+                    <li><strong>Challenge: Figuring out the best approaches to run workflows and manage edge
+                            cases&nbsp;</strong>
+                        <ul>
+                            <li>Solution: This has been a learning experience and while I worked together with the team
+                                to identify edge cases, we still found some along the way and that was ok because this
+                                system is flexible, takes less time to update, and deploys instantly once a fix has been
+                                incorporated.</li>
+                        </ul>
+                    </li>
+                    <!-- Repeat as needed -->
+                </ul>
+            </section>
+            <section id="impact">
+                <h3>Project Impact</h3>
+                <ul>
+                    <li>The institution found value in the system and gave me the space to improve on it, and became the
+                        exclusive reference for Operational Plan information</li>
+                    <li>It provided timely insights that directed actions by the QA office when managing issues or
+                        delays.</li>
+                </ul>
+            </section>
+            <section id="lessons-learned">
+                <h3>Lessons Learned</h3>
+                <ul>
+                    <li>While I wasn't sure about what I wanted to build in this system, I started thinking about the
+                        impact it could have on QA operations if they had a system like that, so I put in the effort to
+                        plan for the system and learn business logic along the way.</li>
+                </ul>
+            </section>
+            <section class="section">
+                <h2>Skills Demonstrated</h2>
+                <div class="skills-list">Apps Script, JavaScript, Data Wrangling, Dynamic
+                    Dashboards<!-- Add more skills as relevant to the project --></div>
+            </section>
 
-</div>
-</div>
+            <footer><br />
+                <hr style="border: 1px solid #ddd5d5;" /><small>&copy; <span class="site_date">2024</span> Mahmood Al
+                    Hosni. All
+                    rights
+                    reserved.</small>
+            </footer>
+        </div>
+    </div>
 </body>
+
 </html>
