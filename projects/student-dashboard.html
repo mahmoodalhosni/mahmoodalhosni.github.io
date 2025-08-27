@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,16 +10,111 @@
     <link rel="stylesheet" type="text/css" href="https://mahmoodalhosni.github.io/styles.css">
     <!-- <link rel="stylesheet" href="styles.css"> -->
 </head>
+
 <body>
     <div class="backstage">
         <div class="main-container">
-    <nav>
-        <small><a class="project-card" href="../index.html">🔙 Homepage</a></small>
-    </nav>
-   
-    <p>Content is coming soon! 🛎️</p>
-    </div>
-    </div>
-    
+            <nav><small><a class="project-card" href="../index.html">🔙 Homepage</a></small></nav><br />
+            <h1>Student Statistical Dashboard</h1>
+            <section id="project-overview" class="project-description">
+                <h2>Project Overview</h2>
+                <p>This project utilizes custom APIs created in Google Sheets to extract required student body data
+                    into the Google Looker's database. The end result: a dynamic, self-updating dashboard ready to be
+                    used by college admins and decision makers.</p>
+            </section>
+            <section id="problem-statement">
+                <h3>Problem Statement</h3>
+                <p>Student data was everywhere, but everything was in isolation. This meant that it's very hard to make
+                    decisions like future recruitment, student services, utilies and so on without having hard data
+                    showing growth or decline in areas of interest.</p>
+            </section>
+            <section id="methodology">
+                <h3>Methodology</h3>
+                <ul>
+                    <li>A quick survery of the institution's digital infrastructure revealed that there is a lack of
+                        unity and centralization of data. This meant I need to establish a pipeline that gathers
+                        relevant data to be used on a dashboard.</li>
+                    <li>The decision to go with Google Looker was simply because it was within the local ecosystem and
+                        it had robust data wrangling and processing.</li>
+                    <li>I also created custom Apps Scrippt API to talk to data warehouses to bring in the data (SIS,
+                        spreadsheets, and other local data) and then use them to display content on the Google Looker
+                        dashboards. I also set up Cron jobs to control when the API is triggered to refresh the
+                        datasets.</li>
+                </ul>
+            </section>
+            <section id="key-findings">
+                <h3>Key implemented services</h3>
+                <ul>
+                    <li>I created 4 pages to organize the data displayed into "themes": Enrollement Stats, Student
+                        profiles overview, APL Stats (Accreditation of Prior Learning), and Progress Stats to track
+                        students' journey from the first year till graduation.</li>
+                </ul>
+            </section>
+            <section id="visuals">
+                <h3>Screenshots</h3>
+                <!-- Image section -->
+                <div class="responsive">
+                    <div class="gallery"><a href="/media/screenshots/3/SSD_screenshot.png" target="_blank"
+                            rel="noopener"> <img src="/media/screenshots/3/SSD_screenshot.png"
+                                alt="Dashboard screenshot" /> </a>
+                        <div class="desc">Due to sensitive information, I can only show the first page. The other pages lins can be seen on the top tabs</div>
+                    </div>
+                </div>
+                <!-- Clone for more images as needed -->
+                <div class="clearfix">&nbsp;</div>
+            </section>
+            <section id="tools-used">
+                <h3>Tools and Technologies Used</h3>
+                <ul>
+                    <li><b>Development:</b> I worked with Apps Script for custom functions and for the API, along setting up
+                        Google Looker using UI features.</li>
+                    <li><b>Gathering resources:</b> This mainly happened on Google Spreadsheets to centralize my work.</li>
+                    <li><b>Task management:</b> Used Google Spreadsheets to keep track of todo lists and tasks.</li>
+                </ul>
+            </section>
+            <section id="challenges">
+                <h3>Challenges and Solutions</h3>
+                <ul>
+                    <li><strong>Challenge: Different staff reported difficulty using the dashbaord</strong>
+                        <ul>
+                            <li>Solution: I held one-to-one meetings to understand current needs. I went back and
+                                improved on the interface, and included some instructions and explanations to help with
+                                ease of use and readability.</li>
+                        </ul>
+                    </li>
+                    <!-- Repeat as needed -->
+                </ul>
+            </section>
+            <section id="impact">
+                <h3>Project Impact</h3>
+                <ul>
+                    <li>Admin, HR, and academic staff gained access to a valuable tool that enabled them to predict
+                        resources and plan for future recruitements, purchases, and making decisions.</li>
+                </ul>
+            </section>
+            <section id="lessons-learned">
+                <h3>Lessons Learned</h3>
+                <ul>
+                    <li>It was my first time trying an API to call Google serverices; like Spreadsheet API and external
+                        APIs as well.</li>
+                </ul>
+            </section>
+            <section class="section">
+                <h2>Skills Demonstrated</h2>
+                <div>
+                    <ul class="skills-list">
+                        <li class="skill-tag">Google Apps Script</li>
+                        <li class="skill-tag">API Integration</li>
+                        <li class="skill-tag">Data Wrangling</li>
+                        <li class="skill-tag">Interactive Dashboards</li>
+                        <li class="skill-tag">Google Looker</li>
+                        <!-- Add more skills as relevant to the project -->
+                    </ul>
+                </div>
+            </section>
+            <footer><!-- Footer section --> <object class="footer-content" data="/footer-content.html" width="300"
+                    height="150"></object> <!-- Footer section --></footer>
+       
 </body>
+
 </html>
