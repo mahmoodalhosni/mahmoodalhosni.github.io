@@ -114,6 +114,8 @@ a {
 
 .links:hover {
     text-decoration-color: DeepSkyBlue;
+    text-decoration-style: solid;
+    font-weight: bold;
     color: deepskyblue
 }
 
